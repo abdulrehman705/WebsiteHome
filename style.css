@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 95px;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 10px black;
+}
+
+.header h1 {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 38px;
+}
+
+.header ul {
+    margin-top: 3%;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    font-family: sans-serif;
+    top: 7%;
+    right: 7%;
+}
+
+.header ul li {
+    display: inline;
+    margin: 0px 0px 0px 64px;
+    padding: 7px;
+}
+
+.header .active {
+    border-bottom: 1px solid black;
+}
+
+.header ul li:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    font-size: 64px;
+    padding-top: 16%;
+
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: rgb(11, 11, 31);
+    color: #fff;
+    padding: 13px 28px;
+    font-size: 15px;
+    margin-top: 7%;
+    border: none;
+
+}
+
+.hover {
+    text-align: center;
+}
+
+.hover :hover {
+    background-color: rgba(53, 11, 11, 0.849);
+    cursor: pointer;
+}
+
+.story :hover {
+    background-color: rgba(53, 11, 11, 0.849);
+    cursor: pointer;
+}
+
+.image {
+    padding: 6% 4%;
+}
+
+.data {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-flex;
+    background: rgb(246, 205, 176);
+    padding: 1% 0%;
+}
+
+.first {
+    width: 50%;
+}
+
+.first img {
+    height: 110vh;
+    width: 100%;
+}
+
+.second {
+    padding-top: 10%;
+    width: 400px;
+    padding-left: 10%;
+}
+
+.second h1 {
+    margin-bottom: 5%;
+    font-size: 46px;
+}
+
+.second p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.forth {
+    text-align: center;
+    font-size: 25px;
+    padding: 6% 0%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.grid .box {
+    padding: 5%;
+}
+
+.grid .box h2 {
+    font-family: serif;
+}
+
+.grid p {
+    font-family: 'Poppins', sans-serif;
+    padding: 3%;
+}
+
+.sixth {
+    background: rgb(244, 225, 157);
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-flex;
+}
+
+.firstpart {
+    padding-top: 5%;
+    width: 400px;
+    padding-right: 10%;
+    margin-left: 5%;
+}
+
+.firstpart h1 {
+    margin-bottom: 5%;
+    font-size: 46px;
+}
+
+.firstpart p {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5%;
+}
+
+.secondpart {
+    width: 50%;
+}
+
+.secondpart img {
+    padding-top: 12px;
+    padding-left: 4.5%;
+    height: 95%;
+    width: 100%;
+}
+
+.secondgrid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10% 0%;
+    padding-right: 10%;
+}
+
+.secondgrid .picture img {
+    width: 170px;
+    height: 230px;
+    float: right;
+    padding-bottom: 13%;
+
+}
+
+.secondgrid .info p {
+    font-family: 'Poppins', sans-serif;
+    padding: 0% 17%;
+}
+
+.secondgrid .info h2 {
+    padding: 2% 17%;
+}
+
+.secondcontainer {
+    text-align: center;
+    font-size: 35px;
+    padding: 6% 0%;
+    background: rgb(241, 184, 132);
+
+}
+
+.button:hover{
+    background-color: rgba(53, 11, 11, 0.849);
+    cursor: pointer;
+}
+
+.thirdgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5%;
+}
+
+.thirdgrid .info {
+    float: left;
+    padding-top: 14%;
+}
+
+.thirdgrid .info p {
+    font-family: 'Poppins', sans-serif;
+    padding: 0% 17%;
+}
+
+.thirdgrid .info h1 {
+    padding: 2% 17%;
+}
+
+.thirdgrid .contact {
+    text-align: right;
+    padding: 14% 32%;
+}
+
+.thirdgrid .contact h1 {
+    padding-bottom: 7%;
+    font-family: serif;
+    padding-right: 14%;
+}
+
+.thirdgrid .contact p {
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+
+}
